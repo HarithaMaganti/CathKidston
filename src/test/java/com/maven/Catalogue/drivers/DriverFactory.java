@@ -45,7 +45,7 @@ public class DriverFactory {
 
     public void timeOut() {
 
-        driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
     public void DeleteCookies() {

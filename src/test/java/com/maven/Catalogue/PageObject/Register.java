@@ -32,7 +32,7 @@ public class Register extends DriverFactory {
 
     private WebElement Newcustomerradiobutton;
     public void NewRadioButton() throws InterruptedException {
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         Newcustomerradiobutton.click();
     }
 
